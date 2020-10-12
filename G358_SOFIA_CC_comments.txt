@@ -1,0 +1,166 @@
+Abstract:
+If there is space, I would suggest mentioning luminosity specifically in the first "Context" section, as well as the more general burst-induced changes in the SED. _/
+
+Introduction, paragraph 4:
+I suggest adding another sentence or two of explanation of how/why the kinematic distance of 6.75 kpc from Brogan et al is consistent with GAIA distances for visible stars of <5 kpc from Burns et al 2020a for readers who may not be familiar with the region.  (I cannot find the Burns et al paper, as noted below, but I assume the logic is that the high optical depth of the G358 complex means only foreground stars are visible?)
+Note: I was unable to find the Burns et al 2020a paper in ads or in an author search of Nature Astronomy so I think there must be a problem with the reference as listed? _/
+
+Section 2-3, general:
+I would have found it helpful to have (either in a table or mentioned in the relevant subsections) information on the angular resolution/PSF/seeing of the various observations.
+
+Section 3-5, general:
+I like the way the analysis of the fluxes and SED are built up over these sections, but at times I found it difficult to keep track of which SED plots and parts of the analysis used "total" fluxes for the whole region v. decomposed fluxes for individual components.  E.g. Section 3.3 presents an MM1-only MIPS 24 um limit, but then Section 3.4 and Figure 4 have total fluxes at other wavelengths, including FIFI-LS, but I think the MM1-only value at 24um?  For me, some additional clarifying statements in the text and figure captions would have been helpful.
+
+Section 2.1, paragraph 1:
+From the sentence "The comparison of the HI-GAL photometry..." I was unsure whether two groups had published conflicting Herschel measurements for G358 or whether the Molinari et al HI-GAL fluxes were inconsistent with the ATLASGAL value for a reasonable/physical SED.  (From looking at the Contreras paper, I think it is the latter?) _/
+
+Section 3, paragraph 1:
+I would suggest adding a reference to Figure 1 already after the first sentence ("As evidenced by..."). _/
+
+Section 3.1:
+The variability of the NIR counterpart to MM3 noted here appears to contrast with the assumption made in the later analysis that all cluster members other than MM1 remained unchanged during the burst.  (Though Figure 5 clearly shows that MM1 dominates the total flux at longer wavelengths.)  Could a useful upper limit be placed on MM3's variability at longer wavelengths based on the NIR range? _/
+
+Section 3.3.2, top of page 5:
+In the sentence "Notably, the distribution of positions is elongated but in a different direction as expected." suggest specifying as expected due to what [if MM1 contributed significantly during the burst?]. _/
+
+Section 3.3.3:
+From the text, I was not certain whether a 3 sigma shift in centroid had been detected, or whether no shift was detected and hence a 3 sigma shift was assumed as an upper limit. _/
+
+Section 3.4, paragraph 2:
+It may be helpful to mention whether the other objects in the FIFI-LS dataset are broadly similar (e.g. MYSOs). _/
+
+Section 3.4, paragraph 4:
+I was confused by "the ALMA 870 um integrated G358 flux from Brogan et al 2019)"since the ALMA observations were at 889 um.  Possibly the 870 is a typo for the 890 um total (1.13+/-0.03 Jy)?
+
+Section 3.4, paragraph 4:
+"It represents the second confirmation of such an event using this unique facility."  Suggest mentioning here which was the first. _/
+
+Section 3.4, paragraph 5:
+Suggest noting in the text here that the post-burst epoch is lower than during the burst, though elevated above pre-burst.
+
+Section 3.5:
+I had not encountered the term "bivariate Gaussian" before.  I think this is equivalent to fitting a two-dimensional Gaussian to the image; if so, I would suggest adding "(2D Gaussian)" after the first mention of "bivariate Gaussian". _/
+
+Section 4.1, general:
+In reading this section, I was curious about the best-fit solid angle for the pre-burst, burst, and post-burst cases, and whether it changed in the three epochs.  Consider including these values in the text as well?
+
+Section 4.1, paragraph 1:
+The placement of the discussion of de-reddening here left me unsure whether the fluxes shown in Figure 4 (introduced in Section 3.4) were dereddened.  If so, suggest adding a statement to the figure caption with a reference to Section 4.1. _/
+
+Section 4.1, paragraph 2:
+For readers who may not be familiar with the details of Brogan et al 2019, suggest slight wording change to "...than the pre-burst result of Brogan et al...". _/
+
+Section 5.1:
+In the sentence "Since none of these has IR counterparts we assume that they are in an early evolutionary stage as well", does the "as well" refer to MM1? _/
+
+Section 5.1:
+I was somewhat confused by the description of the correction factor "applied to reproduce the total flux.  It is of similar value as the ratio of the integrated flux density of G358 at 889um of 1.13 Jy to the sum of the fluxes from all individual components of 0.61 Jy."  How is this factor calculated?  (I think not from the ALMA fluxes, since it is similar to but not the same as the ratio of the 889 um total flux density from the ALMA image made with robust=1 (1.13+/-0.03 Jy) to the sum of the fluxes of the individual components (measured from the image made with robust=0.1)?)  Is it the ALMA fluxes that are multiplied by this correction factor, or the extrapolated fluxes for the shorter wavelengths for the other (non-MM1) sources?
+
+Section 5.1:
+When reading this section, I was curious about the extrapolated FIR fluxes for the other cluster members, and wondered about including these in another appendix table.
+
+Section 5.2.1 and 5.2.2:
+Both these sections refer to a distance range, but I did not see it stated (Section 5.2.1 suggests it will be given in the discussion of MM1 in Section 5.2.2, and Section 5.2.2 says the distance range is given above). _/
+
+Section 5.2.1, paragraph 3:
+Is the quoted disk size a radius or diameter? SIZE->Radius _/
+
+Section 5.2.1, paragraph 3:
+As a reader I would find it helpful to know the angular resolution of the Hu et al observations. _/
+
+Section 5.2.2 and Figure 6 (also appendix tables):
+From the earlier sections, I had thought that only the August 2020 FIFI-LS data went into the post-burst SED, but Figure 6 shows an 889 um post-burst datapoint.
+Since the Brogan et al 2019 ALMA and SMA observations were all taken prior to the first FIFI-LS epoch, I would have expected these (sub)mm points to only contribute to the burst SED.
+Related to this, I was confused that the 889 um total flux density values in Table A.3 (burst) and Table A.4 (post-burst) were the same, but the MM1 flux densities were different. <- corrected (typo?) _/
+
+Section 5.2.2, paragraph 2:
+A brief comment on why the lower end of the Av range explored for MM1 is higher than the fitted value for MM3 may be helpful.
+
+Section 5.2.2, paragraph 3:
+I was puzzled by the final clause "and in particular during an accretion burst" since the preceding discussion in this paragraph is of the pre-burst SED.
+
+Section 5.2.2, paragraph 4:
+Why note the aperture size in the discussion of the MM1 modeling, but not for MM3?
+
+Section 5.2.2, paragraph 6:
+Can any comment be made on what might be the physical reason/mechanism for the flat-topped burst SED?
+
+Section 5.2.2, paragraph 7:
+A general comment prompted by my initial surprise at the reference to MIR here (I'm accustomed to thinking of MIR as Spitzer wavelengths down to IRAC): I think it would be helpful to define the meanings/boundaries of NIR/MIR/FIR as used here in one of the early sections.
+
+Section 5.2.2, paragraph 7:
+Are the models with MIR fluxes below the mean pre-burst level excluded before or after fitting?  The text seemed to say that these models were excluded for the post-burst epoch but not for the burst epoch, and I wondered why.
+-> I excluded them after the Fit, we did not for the burst since MIR data is available
+
+Section 5.2.2, paragraph 12:
+I would suggest noting that the references cited for MYSO disk masses (Kraus and Johnston) are those that similarly use SED modeling to infer disk mass, e.g. "...than those derived for MYSOs using SED modeling (e.g. [refs])" as there are a number of more recent ALMA studies of MYSO disks, but these generally infer disk masses only from the (sub)mm continuum (generally assuming optically thin emission). _/
+
+Section 7:
+Though the thermal desorption will dominate near the MYSO, for completeness, it may be worth mentioning non-thermal desorption of methanol from grain mantles (e.g. Dartois et al 2019, 2020:
+https://ui.adsabs.harvard.edu/abs/2019A%26A...627A..55D/abstract
+https://ui.adsabs.harvard.edu/abs/2020A%26A...634A.103D/abstract )
+
+Section 7:
+I suspect the answer to this is that pumping models for the newly discovered Class II masers are not sufficiently developed, but can this analysis shed any light on why so many new masers were detected in G358?
+
+Section 7, paragraph 2:
+The description of Figure 8 in the first sentences (referring to "top" and "bottom") doesn't match the layout of the figure.
+The nu in the equation on line 7 should I think be gamma. _/
+
+Section 7, paragraph 2 and Figure 8:
+Are the white contours lines of constant n_H or n_H2?  The equation in the text seemed to suggest the latter.  The white lines in Figure 8 look identical--is it the case that the density structure is the same for the three mean models?  If so, it may be worth mentioning this in the text as well. _/
+
+Figure 8:
+The caption mentions a black bar of length 50mas, which I could not see in the figure. _/
+
+Section 7, paragraphs 5 and 6:
+For the burst epoch, it appeared to me from the middle panel of Figure 8 that the vertical dashed line indicating the maser circumference crossed the 120 K dashed contour for optimal desorption near the cavity surface, similar to the first epoch.  It wasn't obvious to me which aspects of Figure 8 suggested a higher (continuum?) optical depth towards the masers in the fourth VLBI epoch--possibly this could be clarified in the text?  Can the location of e.g. the tau=1 surface for the MIR photons required for pumping be inferred from the density structure of the model?  Could the prediction of the ring expansion slowing with time be verified with additional VLBI epochs, as well as with time-dependent RT simulations? _/
+
+Section 8.1, paragraph 1:
+It was difficult for me to judge the scale of the mismatch by eye from Figure 6.  Is the spatial filtering of the interferometer (and the fact that the sources are resolved only in the (sub)mm measurements) potentially relevant, or is the scale of the offset too large for spatial filtering to be a significant contributor?  Or is the correction factor discussed in Section 5.1 intended to offset the effect of spatial filtering?
+
+Section 8.1, paragraph 1:
+Are the heating timescales expected to be longer in the submm than in the FIR based on the Harries et al simulations? _/
+
+Section 8.1, paragraph 3:
+Suggest mentioning that fluxes with wavelengths > 889 um were not included in the burst fit when the fitting is described in the earlier sections, with a forward reference to this section.  I would also suggest adding a note to Table A.3, as I was confused by the lack of long-wavelength MM1 values when first looking at the table. _/
+
+Section 8.1, paragraph 3:
+If I understood correctly, this paragraph is making the argument that a stationary model would also overestimate the submm flux because the FIR emission--which originates from a region that is heated by a short/weak burst--dominates the fit, hence overpredicting the emission from the outer envelope responsible for the submm emission (which the heating from the short/weak burst does not reach, regardless of timescale).  I would suggest laying this out (even) more step-by-step in the text. 
+
+Section 8.2:
+Suggest also mentioning Meyer et al 2019 MNRAS 484 2482 here (https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2482M/abstract) who discuss multiple bloating and contraction phases in the context of accretion outbursts. _/
+
+Section 8.3, paragraph 1:
+I found it somewhat ambiguous whether the focus of the first part of this paragraph was clustering (as e.g. seen in G358 with ALMA) or binarity/higher-order multiplicity on smaller scales. _/
+
+Section 8.3, paragraph 1:
+I think this section would benefit from a final sentence stating the wider implications of the G358 result.  (My understanding was that the key point was that comparing total fluxes (without resolving individual sources and/or SED decomposition) would result in underestimating burst parameters.)
+
+Section 8.4:
+Could this section be related to (or even combined with?) Section 8.1 by commenting on the expectations for the (sub)mm emission based on the physical mechanisms discussed here?
+
+Section 8.4, paragraph 1:
+The sentence "...the MIR-emitting region moves toward a larger radius and, consequently, its emission increases..." seemed to me to perhaps be missing a linking clause or explanation. _/
+
+Section 8.5:
+I think it is important to mention here that there are also examples of what appear to be large, remarkably well-ordered Keplerian disks in very young sources, including e.g. G11.92-0.61 MM1 (an Extended Green Object; Ilee et al 2018, ApJL, 869, 2, L24; there is evidence for a low-mass companion likely formed by disk fragmentation in this source. https://ui.adsabs.harvard.edu/abs/2018ApJ...869L..24I/abstract).  It may be indeed that environment is the key.
+
+Section 8.5, final sentence:
+It was not clear to me how the disk mass/size considerations discussed earlier in this paragraph might explain the multitude of new maser transitions--I would have found an additional sentence or two of explanation helpful. _/ (deleted)
+
+Section 8.6, paragraph 2:
+A very minor comment, but to me "claim" can read as somewhat prejudicial; I would suggest "Recently, the suggestion by Proven-Adzri et al..." instead. _/
+
+Section 8.6, paragraph 2:
+Suggest giving the source/reference for the fourth accretion burst (I think only 3 have previously been mentioned in the paper--G358, S255IR NIRS3, and NGC6334I).
+
+Section 9, first bullet:
+A minor wording comment: saying that the burst could not be verified at other wavelengths could seem to cast doubt on the result (as opposed to give insight into the burst strength etc. as discussed in Section 8.4).
+Suggest rewording the second sentence to e.g. "Since no excess emission associated with the burst was detected in NIR or (sub)mm observations, it represents the first NIR/(sub)mm-dark MYSO accretion burst." _/
+
+Appendix Tables A.5 and A.6:
+My memory of the Robitaille 2017 grid is that r* and T* are model parameters, and one then calculates L* from these.  If my memory is correct and L* is not a direct output of the model fitting, suggest adding a table note to this effect. _/
+
+Appendix A.7:
+It could be helpful to add a column for tau_envelope.  I would also have found it helpful to see e.g. 889um opacities in addition to the V-band values. _/
